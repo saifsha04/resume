@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Works for Firefox */
+html {
+  scrollbar-width: none;
+}
+
+
+body {
+  background: linear-gradient(to bottom right, #000, #3c2108);
+  max-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+
+}
+
