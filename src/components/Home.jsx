@@ -93,7 +93,7 @@ export const Home = () => {
           </div>
 
         {/*Skill Mobile*/}
-          <div className="bg-white/80 block md:hidden w-70 h-50 outline-2 outline-offset-2 outline-white-500 rounded-2xl backdrop-blur-grascale mt-15 ml-7 ">
+          <div className="bg-white/80 block  md:hidden w-70 h-50 outline-2 outline-offset-2 outline-white-500 rounded-2xl backdrop-blur-grascale mt-15 ml-7 ">
             <div className="flex  md:flex-row items-start gap-3 md:gap-8">
           <img srcSet={Coma} alt="3D Avatar" className=" w-5 h-5 mt-2 ml-10 sm:w-7" />
            
@@ -107,14 +107,14 @@ export const Home = () => {
           </div>
         
            {/* Background Circles laptop view */}
-          <div className="absolute flex-col -mt-10 hidden md:block">
+          <div className="absolute flex-col  hidden md:block">
            <img srcSet={Circle} className="lg:w-145 -mt-130 lg:ml-195  animate-pulse" style={{ top: "-80px", left: "40%" }} />
            <img srcSet={Circle} className="lg:w-124 -mt-124 lg:ml-205 animate-pulse" style={{ top: "-60px", left: "42%" }} /> 
            <img srcSet={Circle} className="max-w-100 -mt-100 lg:ml-217 animate-pulse" style={{ top: "-40px", left: "44%" }} />
            </div>
 
            {/* Background Circles mobile view */}
-          <div className="absolute  block md:hidden">
+          <div className="absolute  mt-20 block md:hidden">
            <img srcSet={Circle} className="w-100 -mt-30 animate-pulse" style={{ top: "-80px", left: "40%" }} />
            <img srcSet={Circle} className="w-70 ml-7 -mt-69  animate-pulse" style={{ top: "-60px", left: "42%" }} /> 
            
@@ -123,7 +123,7 @@ export const Home = () => {
 
             {/* Avatar*/}
 
-        <div className="absolute md:block">
+        <div className="absolute mt-10 md:block">
            {/* Laptop view */}
           <img
           srcSet={Avatar}
@@ -152,7 +152,7 @@ export const Home = () => {
           <img srcSet={Zoho} className="max-w-9 mt-10 lg:ml-222 animate-spin" style={{ top: "-70px", left: "50%" }} />
         </div>
           {/* Floating Logos mobile view */}
-          <div className=" absolute block  md:hidden">
+          <div className=" absolute mt-7 block  md:hidden">
           <img srcSet={JS} className=" max-w-8 -mt-40 ml-60  animate-bounce" style={{ top: "-50px", left: "45%" }} />
           <img srcSet={Logo} className=" max-w-6 -mt-10 ml-22 -rotate-45 animate-pulse" style={{ top: "-110px", left: "58%" }} />
           <img srcSet={Sheet} className=" max-w-6 mt-23 ml-63 animate-ping" style={{ top: "-100px", left: "66%" }} />
