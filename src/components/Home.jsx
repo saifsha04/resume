@@ -5,7 +5,7 @@ import Avatar from "../assets/avatar.png"; // Replace with 3D avatar image path
 import Circle from "../assets/circle.png";
 import JS from "../assets/js.png"; 
 import Logo from "../assets/logo.png"; 
-import Sheet from "../assets/cascading.png"; 
+import Cascading from "../assets/cascading.png"; 
 import Figma from "../assets/figma.png"; 
 import Coma from "../assets/coma.png"; 
 import Profile from "../assets/avatar1.png"; 
@@ -146,7 +146,7 @@ export const Home = () => {
           <div className="absolute hidden md:block">
           <img srcSet={JS} className=" max-w-10 -mt-50 lg:ml-305 animate-bounce" style={{ top: "-50px", left: "45%" }} />
           <img srcSet={Logo} className=" max-w-10 -mt-10 lg:ml-220 -rotate-45 animate-pulse" style={{ top: "-110px", left: "58%" }} />
-          <img srcSet={Sheet} className=" max-w-8 mt-30 lg:ml-305 animate-ping" style={{ top: "-100px", left: "66%" }} />
+          <img srcSet={Cascading} className=" max-w-8 mt-30 lg:ml-305 animate-ping" style={{ top: "-100px", left: "66%" }} />
           <img srcSet={Figma} className=" max-w-8 -mt-30 lg:ml-220 animate-pulse" style={{ top: "-40px", left: "70%" }} />
           <img srcSet={Tally} className=" max-w-12 -mt-13 lg:ml-307 animate-spin" style={{ top: "-67px", left: "60%" }} />
           <img srcSet={Zoho} className="max-w-9 mt-10 lg:ml-222 animate-spin" style={{ top: "-70px", left: "50%" }} />
@@ -155,7 +155,7 @@ export const Home = () => {
           <div className=" absolute mt-7 block  md:hidden">
           <img srcSet={JS} className=" max-w-8 -mt-40 ml-60  animate-bounce" style={{ top: "-50px", left: "45%" }} />
           <img srcSet={Logo} className=" max-w-6 -mt-10 ml-22 -rotate-45 animate-pulse" style={{ top: "-110px", left: "58%" }} />
-          <img srcSet={Sheet} className=" max-w-6 mt-23 ml-63 animate-ping" style={{ top: "-100px", left: "66%" }} />
+          <img srcSet={Cascading} className=" max-w-6 mt-23 ml-63 animate-ping" style={{ top: "-100px", left: "66%" }} />
           <img srcSet={Figma} className=" max-w-4 -mt-25 ml-20 animate-pulse" style={{ top: "-40px", left: "70%" }} />
           <img srcSet={Tally} className=" max-w-8  -mt-5 ml-60  animate-spin" style={{ top: "-67px", left: "60%" }} />
           <img srcSet={Zoho} className="max-w-6 mt-5 ml-15  animate-spin" style={{ top: "-70px", left: "50%" }} />
