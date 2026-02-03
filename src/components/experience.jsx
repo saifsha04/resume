@@ -3,7 +3,7 @@ import { Home } from "./Home";
 import { FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { SiExpress, SiMongodb, SiNodedotjs, SiReact } from "react-icons/si";
-import img1 from "../assets/gallery-5.webp";
+import img1 from "../assets/smoodh.png";
 import img2 from "../assets/gallery-6.png";
 import img3 from "../assets/gallery-7.png";
 import img4 from "../assets/gallery-8.png";
@@ -18,7 +18,7 @@ const images = [
 ];
 
 const links = [
-  "https://saifsha04.github.io/saif-award/",
+  "https://smoodh-ob4wdwrb4-saifm9811-gmailcoms-projects.vercel.app/",
   "https://saifsha04.github.io/saif-avatar/",
   "https://11-xi-three.vercel.app/",
   "https://primeagro-seven.vercel.app/",

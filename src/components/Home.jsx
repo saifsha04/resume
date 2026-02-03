@@ -5,7 +5,7 @@ import Avatar from "../assets/avatar.png"; // Replace with 3D avatar image path
 import Circle from "../assets/circle.png";
 import JS from "../assets/js.png"; 
 import Logo from "../assets/logo.png"; 
-import Sheet from "../assets/cascading.png"; 
+import Sheet from "../assets/sheet.png"; 
 import Figma from "../assets/figma.png"; 
 import Coma from "../assets/coma.png"; 
 import Profile from "../assets/avatar1.png"; 
